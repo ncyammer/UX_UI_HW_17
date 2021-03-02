@@ -1,0 +1,116 @@
+/* Topline */
+body{
+    background-color: #d6d6d6;
+}
+.centerImage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.left{
+    float: left;
+}
+.center{
+    float: center;
+}
+.right{
+    float: right;
+}
+.topnav{
+    height: 80px;
+    width:auto 100%;
+    margin: 0px;
+    overflow: hidden;
+    background-color: #000000;
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+li {
+    display: inline;
+} 
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin: 0px 40px;
+    text-decoration: none;
+    font-family: 'Audiowide';
+    font-size: 18px;
+}
+li a:hover {
+    color: #FF0000;
+  }
+/* Logo Area */
+.mainArea{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    align-items: center;
+}
+.mainLogo h2{
+    font-family: 'Audiowide', cursive;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 0;
+}
+.logo{
+    max-height: 250px;
+    max-width: 250px;
+    margin-bottom: 10px;
+}
+/* Medium Cards */
+.mediumCards{
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.mediumCardstyle{
+    display: inline-block;
+    object-fit: contain;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+.mediumCardstyle img{
+    width: 320;
+    height: 200px;
+}
+.mediumCardstyle h3{
+    font-family: Audiowide;
+    font-size: 28px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.29;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+    margin-top: 0px;
+}
+/* Footer */
+footer{
+    height: 104px;
+    padding: 80px 140px 80px 140px;
+    background-color: #000000;
+}
+footer h4{
+    color:white;
+    font-size: 20px;
+    font-family: 'audiowide';
+    margin: 0;
+}
+.footerIcon{
+    display: inline-block;
+    object-fit: contain;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+.fontIcon p{
+    color: white;
+    display: inline-block;
+}
