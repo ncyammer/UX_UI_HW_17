@@ -1,6 +1,6 @@
 /* Topline */
 body{
-    background-color: #d6d6d6;
+    background-color: white;
     margin: 0;
 }
 .centerImage{
@@ -40,21 +40,21 @@ h4{
 /* Nav Bar */
 .topnav{
     height: 80px;
-    width:auto 100%;
+    width: 100%;
     margin: 0;
     overflow: hidden;
     background-color: #000000;
     text-align: center;
 }
-ul{
+.topnav ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
   }
-li {
+.topnav li {
     display: inline;
 } 
-li a {
+.topnav li a {
     display: inline-block;
     color: white;
     text-align: center;
@@ -110,8 +110,8 @@ li a:hover {
 }
 /* Medium Cards */
 .mediumCards{
-    margin: 80px 140px;
-    outline: 1px solid red;
+    margin: 40px 140px;
+    text-align: center;
 }
 .mediumCardstyle{
     display: inline-block;
@@ -138,7 +138,7 @@ li a:hover {
 .casestudies{
     margin: 80px 140px;
     padding: 10px;
-    outline: 1px solid red;
+    text-align: center;
 }
 .casestudyCard{
     margin-left: 20px;
@@ -169,4 +169,10 @@ footer h4{
 .fontIcon p{
     color: white;
     display: inline-block;
+}
+
+/* About Page */
+.bio{
+    margin: 40px 140px;
+    padding: 0px 140px;
 }
