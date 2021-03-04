@@ -1,6 +1,7 @@
 /* Topline */
 body{
     background-color: #d6d6d6;
+    margin: 0;
 }
 .centerImage{
     display: block;
@@ -17,10 +18,30 @@ body{
 .right{
     float: right;
 }
+
+/* Typography */
+h1{
+    font-family: 'Audiowide', cursive;
+    font-size: 48px;
+}
+h2{
+    font-family: 'Audiowide', cursive;
+    font-size: 42px;
+}
+h3{
+    font-family:'Roboto', sans-serif;
+    font-size: 36px;
+}
+h4{
+    font-family:'Roboto', sans-serif;
+    font-size: 24px;
+}
+
+/* Nav Bar */
 .topnav{
     height: 80px;
     width:auto 100%;
-    margin: 0px;
+    margin: 0;
     overflow: hidden;
     background-color: #000000;
     text-align: center;
@@ -38,58 +59,93 @@ li a {
     color: white;
     text-align: center;
     padding: 25px;
-    margin: 0px 40px;
+    margin: 0px 20px;
     text-decoration: none;
     font-family: 'Audiowide';
-    font-size: 18px;
+    font-size: 24px;
 }
 li a:hover {
     color: #FF0000;
   }
+
 /* Logo Area */
 .mainArea{
     margin-top: 40px;
     margin-bottom: 40px;
+    margin-left: 140px;
+    margin-right: 140px;
+    align-items: center;
+    text-align: center;
+}
+.mainAreauxdesign{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 140px;
+    margin-right: 140px;
     align-items: center;
 }
-.mainLogo h2{
-    font-family: 'Audiowide', cursive;
-    font-size: 36px;
-    text-align: center;
+.mainLogo h1{
     margin-top: 0;
+    margin-bottom: 0px;
 }
 .logo{
     max-height: 250px;
     max-width: 250px;
     margin-bottom: 10px;
 }
+.logouxdesign{
+    max-height: 250px;
+    max-width: 250px;
+    margin-bottom: 10px;
+    margin-right: 40px;
+}
+.uxBio{
+    display:block;
+    text-align: left;
+}
+.uxBio p{
+    margin-top: 40px;
+    font-size: 18pt;
+    font-family:'Roboto', sans-serif;
+}
 /* Medium Cards */
 .mediumCards{
-    margin-left: 120px;
-    margin-right: 120px;
+    margin: 80px 140px;
+    outline: 1px solid red;
 }
 .mediumCardstyle{
     display: inline-block;
-    object-fit: contain;
     margin-left: 20px;
     margin-right: 20px;
-    text-align: center;
 }
 .mediumCardstyle img{
-    width: 320;
+    width: 320px;
     height: 200px;
 }
 .mediumCardstyle h3{
-    font-family: Audiowide;
-    font-size: 28px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
+    font-family: 'Audiowide', cursive;
     line-height: 1.29;
     letter-spacing: normal;
     text-align: center;
     color: #000000;
     margin-top: 0px;
+}
+
+/* Casestudy Cards */
+.casestudies{
+    margin: 80px 140px;
+    padding: 10px;
+    outline: 1px solid red;
+}
+.casestudyCard{
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 300px;
+    width: 480px;
+    display: inline-block;
 }
 /* Footer */
 footer{
